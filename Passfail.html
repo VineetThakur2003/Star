@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>My-operation</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Operation</h1>
+        </header>
+            <main>
+                <div>
+                    <h2>PASS/FAIL Calculator</h2>
+                    <label for="submarks"></label>
+                    <input type="number" id="submarks">
+                    <button onclick="calculateResult()">Get Result</button>
+                    <p id="message"></p>
+                </div>
+
+    <hr>
+                <div>
+                    <h2>EVEN/ODD Calcultor</h2>
+                    <label for="num"></label>
+                    <input type="number" id="num">
+                    <button onclick="calculateEvenOdd()">Even-Odd</button>
+                    <p id="evenOddMessage"></p>
+                </div>
+
+    <hr>
+                <div>
+                    <h2>Calculate Result By subject Marks</h2>
+
+                    <label for="english">English</label>
+                    <input type="number" name="English" id="english"><br>
+                    <label for="math">MATH</label>
+                    <input type="number" name="math" id="math"><br>
+                    <label for="hindi">HINDI</label>
+                    <input type="number" name="hindi" id="hindi"><br>
+                    <label for="Science">SCIENCE</label>
+                    <input type="number" name="science" id="science"><br>
+                    <label for="physicaleduction">PHYSICALEDUCTION</label>
+                    <input type="number" name="physicaleduction" id="physicaleduction"><br>
+
+                    <button onclick="calGradeWithallSubjectMarks()">Print</button>
+                    <p id="allSubResult"></p>
+
+                </div>
+            </main>
+            <footer>
+                <p>Copyrighht 2024</p>
+            </footer>
+            <script src="Passfail.js"></script>
+            
+    </body>
+</html>
